@@ -14,7 +14,7 @@ public class FizzBuzz {
 
             else if ( chiffre % 5 == 0){ System.out.println("Buzz"); }
 
-            else if (chiffre < 0 || chiffre > 100 ) { System.out.println("La " +
+            else if (chiffre < 0 || chiffre > 200 ) { System.out.println("La " +
                     "valeur entre est invalide Bonne journee"); }
         }catch(Exception e) {
             System.out.println("La valeur entre est invalide Bonne journee");
